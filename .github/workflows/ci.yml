@@ -24,7 +24,7 @@ jobs:
                 `Example: "feat(android): add new validation function"`
               );
             } else {
-              console.log("PR title follows conventional commit format ✅");
+              console.log(`PR title "${prTitle}" follows conventional commit format`);
             }
     
   ci:
